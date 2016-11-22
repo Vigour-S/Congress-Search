@@ -1,0 +1,67 @@
+.page-header {
+    margin-top: 20px;
+}
+
+.insteadofrow {
+    margin-right: -15px;
+    margin-left: -15px;
+    height: 100%;
+}
+/************************************/
+.btn-icon {
+  font-size: 16px;
+    margin-top: -2px;
+}
+.btn-icon .glyphicon {
+  -webkit-transition: color 0.1s ease;
+  -moz-transition: color 0.1s ease;
+  -o-transition: color 0.1s ease;
+  transition: color 0.1s ease;
+}
+.btn-icon .glyphicon-star {
+  color: #666666;
+}
+.btn-icon .glyphicon-star:hover {
+  color: rgba(102, 102, 102, 0.85);
+}
+.btn-icon .glyphicon-star.active {
+  color: #fecf15;
+}
+.btn-icon .glyphicon-star.active:hover {
+  color: rgba(254, 207, 21, 0.85);
+}
+.btn-icon .glyphicon-heart {
+  color: #666666;
+}
+.btn-icon .glyphicon-heart:hover {
+  color: rgba(102, 102, 102, 0.85);
+}
+.btn-icon .glyphicon-heart.active {
+  color: #fe4365;
+}
+.btn-icon .glyphicon-heart.active:hover {
+  color: rgba(254, 67, 101, 0.85);
+}
+.btn-icon .glyphicon-bookmark {
+  color: #666666;
+}
+.btn-icon .glyphicon-bookmark:hover {
+  color: rgba(102, 102, 102, 0.9);
+}
+.btn-icon .glyphicon-bookmark.active {
+  color: #a6d478;
+}
+.btn-icon .glyphicon-bookmark.active:hover {
+  color: rgba(166, 212, 120, 0.9);
+}
+
+/***************/
+.logo {
+    display: inline-block;
+    margin-right: 0px;
+    width: 120px;
+}
+
+.bill-main-table{
+    max-height: 850px;
+}

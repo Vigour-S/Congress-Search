@@ -1,0 +1,169 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F5F5F5;
+}
+
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.container
+{
+    width:100%;
+    height: 1800px;
+    display:inline-block;
+}
+.side-bar
+{
+    background:#454545;
+    position:absolute;
+    height:1800px;
+    width:140px;
+    color:#fff;
+    transition: margin-left 0.5s;
+    display:inline-block;
+    
+}
+
+.navtab {
+    width: 10px;
+    margin-bottom: 0px;
+}
+
+.navicon {
+    font-size: 20px;
+    display: inline;
+}
+
+#first_tab {
+    margin-top: 30px;
+}
+
+#mynav {
+    margin-bottom: 0px;
+    min-height: 40px;
+}
+#stack {
+        color: #333;
+        margin-top: 10px;
+        margin-left: 10px;
+}
+
+.wrapper {
+    height: 100%;
+}
+
+.side-bar ul
+{
+    list-style:none;
+    padding:0px;
+    
+}
+
+
+ .menu li  a 
+{
+    color:ghostwhite;
+    text-decoration:none;
+    display:inline-table;
+    width:100%;
+    padding-left:10px;
+    padding-right:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-top: 10px;
+}
+
+
+.menu li  a.active
+{
+    padding-left:17px;
+    background:#D9853B;
+    border-left:3px solid #ECECEA;
+}
+
+.menu li  a.active:before {
+   content:"";
+   position: absolute;
+   width: 0;
+   height: 0;
+   border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+	
+	border-left: 7px solid #D9853B;
+    margin-top: -10px;
+    margin-left: 180px;
+}
+
+#main-body {
+    height: 100%;
+    width:100%;
+    background-color: #F5F5F5;
+    padding-top: 10px;
+}
+
+.content
+{
+    width: 100%;
+    height: 100%;
+    padding-left: 40px;
+    transition: padding-left 0.5s;
+}
+
+.active > .side-bar
+{
+    margin-left:-40px;   
+    transition: margin-left 0.5s;
+}
+
+.active > .content
+{
+    padding-left:0px;
+    transition: padding-left 0.5s;
+}
+
+
+.p_img {
+    max-width:20px;
+    max-height:20px;
+}
+
+.small_photo_img {
+    max-width:30px;
+    max-height:30px;
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#photo {
+    max-height: 180px;
+    max-width: auto;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+#details {
+    margin: 10px;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.social {
+    max-width:30px;
+    max-height:30px;
+}
+
+/*********/
+.panel-title {
+    width: 50%;
+    display: inline;
+}
